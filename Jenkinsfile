@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "ketanvj" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "ketanvj/railwaytt"
+        //be sure to replace "sshroot28" with your own Docker Hub username
+        DOCKER_IMAGE_NAME = "sshroot28/railwaytt"
     }
     stages {
         stage('Build') {
